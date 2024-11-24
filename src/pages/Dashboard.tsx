@@ -6,18 +6,18 @@ import { Area, AreaChart } from "recharts"
 
 const sparklineData = {
   users: [
-    { value: 90 }, { value: 100 }, { value: 110 }, { value: 95 }, { value: 120 }
+    { value: 20 }, { value: 10 }, { value: 160 }, { value: 150 }, { value: 250 }
   ],
   roles: [
-    { value: 4 }, { value: 6 }, { value: 7 }, { value: 8 }, { value: 8 }
+    { value: 4 }, { value: 16 }, { value: 2 }, { value: 20 }, { value: 78 }
   ],
   permissions: [
-    { value: 18 }, { value: 20 }, { value: 22 }, { value: 23 }, { value: 24 }
+    { value: 18 }, { value: 35 }, { value: 10 }, { value: 40 }, { value: 95 }
   ],
   pending: [
-    { value: 2 }, { value: 4 }, { value: 3 }, { value: 5 }, { value: 3 }
+    { value: 2 }, { value: 8 }, { value: 3 }, { value: 10 }, { value: 5 }
   ]
-}
+};
 
 const stats = [
   { 

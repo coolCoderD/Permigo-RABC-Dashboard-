@@ -37,7 +37,7 @@ const PermissionSelect: React.FC<PermissionSelectProps> = ({
     <div className="space-y-6">
       {modules.map(module => (
         <div key={module} className="space-y-3">
-          <h4 className="text-lg font-medium text-gray-900 flex items-center">
+          <h4 className="text-xl font-medium text-gray-900 flex items-center">
             <Shield className="h-6 w-6 mr-2 text-gray-400  " />
             {module} Permissions
           </h4>

@@ -71,7 +71,7 @@ const Sidebar = () => {
       {isOpen && (
         <div
           onClick={toggleSidebar}
-          className="fixed inset-0 bg-black opacity-50 -z-10 md:hidden"
+          className="fixed inset-0 bg-black opacity-50  md:hidden"
         ></div>
       )}
     </div>
